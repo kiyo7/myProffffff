@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./resetStyle.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300 rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>My_Profile</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="header-wrap">
+        <img class="header-logo" src="./image/logo.jpeg" />
+        <nav class="header-nav">
+          <ul>
+            <li>ABOUT</li>
+            <li>PERFORMANCE</li>
+            <li>CONTACT</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- main -->
+    <main>
+      <!-- first-v -->
+      <section id="first-v">
+        <div class="first-v-wrap"></div>
+      </section>
+      <!-- about -->
+      <section id="about">
+        <div class="about-wrap">
+          <div class="annotation">
+            <div class="about-annotation-title">
+              <h3 class="title">ABOUT</h3>
+            </div>
+            <div class="about-annotation-desc">
+              <p>
+                ＊このサイトは清川
+                尚のポートフォリオです。自身での制作物やこれからの活動実績等が記載されます。
+              </p>
+            </div>
+          </div>
+          <div class="about-content">
+            <img class="about-image" src="./image/me.jpeg" alt="" />
+            <div class="about-description">
+              <p class="about-name">
+                <span class="about-title">氏名:</span> 清川 尚
+              </p>
+              <p>
+                <span class="about-title">経歴:</span>
+                2001年3月24日生まれ。スキルは主にフロントエンドの言語。何かスキルを身に付けたいという思いから、IT業界に興味を持つ。2020年1月から独学・スクールにてプログラミングを学習。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- performance -->
+      <section id="performance">
+        <h3 class="title">PERFORMANCE</h3>
+        <div class='performance-wrap'>
+          <div class='performance-item'>
+              <h3 class='performance-title'>🐍snake_game🐍</h3>
+            <div class='performance-img'>
+              <img src="./image/snake_game.gif">
+            </div>
+            <div class='performance-content'>
+              <p class='performance-desc'>テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+          </div>
+          <div class='performance-item'>
+              <h3 class='performance-title'>📅Calendar📅</h3>
+            <div class='performance-img'>
+              <img src="./image/Calendar.gif">
+            </div>
+            <div class='performance-content'>
+              <p class='performance-desc'>テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+          </div>
+          <div class='performance-item'>
+              <h3 class='performance-title'>🖋Trello🖋</h3>
+            <div class='performance-img'>
+              <img src="./image/Trello.gif">
+            </div>
+            <div class='performance-content'>
+              <p class='performance-desc'>テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <!-- contact -->
+      <section id="contact">
+        <h3 class="title">CONTACT</h3>
+        <div class="contact-wrap">
+          <form class="contact-form">
+            <div class="contact-name">
+              <label for="i_name">お名前 　　　</label>
+              <input
+                id="i_name"
+                name="name"
+                class="form form-name"
+                type="name"
+                placeholder="例: 山田  太郎"
+              />
+            </div>
+            <div class="contact-email">
+              <label for="i_email">E-mail　　</label>
+              <input
+                id="i_email"
+                name="email"
+                class="form form-email"
+                type="email"
+                label="Email"
+                placeholder="例: *****@icloud.com"
+              />
+            </div>
+            <div class="contact-text">
+              <label for="i_contact">お問い合わせ</label>
+              <textarea
+                id="i_contact"
+                name="contact"
+                class="form form-textarea"
+                placeholder="例: HPについて"
+              ></textarea>
+            </div>
+            <div class="submit-button">
+              <button type="submit">送信</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer-wrap">
+      <div class="footer-logo">
+        <a href=https://twitter.com/qcs_rgoooi class="fab fa-twitter-square"></a>
+        <a href="https://github.com/kiyo7" class="fab fa-github"></a>
+        <p>2021 @kiyo</p>
+      </div>
+    </footer>
+  </body>
+</html>
